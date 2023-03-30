@@ -1,0 +1,2 @@
+export const ZOOP_OPTIONS = 'ZOOP_OPTIONS';
+export const ZOOP_MARKETPLACE = 'ZOOP_MARKETPLACE';
