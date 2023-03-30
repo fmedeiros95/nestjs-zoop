@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import qs from 'qs';
+import * as qs from 'qs';
 import { IZoopQuery } from '../interfaces';
 import { ZoopService } from '../zoop.service';
 
