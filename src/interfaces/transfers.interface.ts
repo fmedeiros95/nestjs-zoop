@@ -24,7 +24,7 @@ export interface IZoopFutureTransferQuery {
   readonly 'created_at_range[lte]': string;
 }
 
-export interface IReceivingPolicy {
+export interface IZoopReceivingPolicy {
   readonly transfer_interval: ZoopFrenquencyType;
   readonly transfer_day: number;
   readonly transfer_enabled: boolean;

@@ -3,7 +3,7 @@ import { IZoopEnty, IZoopMetadata } from './common.interface';
 /**
  * WebHooks Interface
  */
-export interface IWebHooks extends IZoopEnty {
+export interface IZoopWebHooks extends IZoopEnty {
   readonly method: string;
   readonly url: string;
   readonly event: readonly string[];

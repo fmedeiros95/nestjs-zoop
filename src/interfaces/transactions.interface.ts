@@ -112,7 +112,7 @@ export interface IZoopCardMethod extends IZoopEnty {
 
 export interface IZoopPaymentMethod extends IZoopCardMethod, IZoopBoletoMethod, IZoopPixMethod {}
 
-export enum EntryModeType {
+export enum ZoopEntryModeType {
   MANUALLY_KEYED = 'manually_keyed',
   CHIP = 'chip',
   BARCODE = 'barcode',
@@ -123,7 +123,7 @@ export enum EntryModeType {
 }
 
 export interface IZoopPointOfSale {
-  readonly entry_mode?: EntryModeType;
+  readonly entry_mode?: ZoopEntryModeType;
   readonly identification_number?: string;
 }
 

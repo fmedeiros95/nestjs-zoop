@@ -1,7 +1,7 @@
 import { IZoopEnty, ZoopFrenquencyType, ZoopPaymentType } from './common.interface';
 import { IZoopCurrency } from './transactions.interface';
 
-export interface IPlan extends IZoopCurrency {
+export interface IZoopPlan extends IZoopCurrency {
   // Frequencia que o plano será cobrado
   readonly frequency: ZoopFrenquencyType;
   // intervalo entre frequencia de cobrança
